@@ -30,7 +30,7 @@
 .circulo{
     display: flex;
     background: rgba(46,43,233,1);
-    background: linear-gradient(180deg, rgba(46,43,233,1) 0%, rgba(120,87,240,1) 100%);
+    background: linear-gradient(180deg, rgba(46,43,233,1) 0%, rgba(120,87,240,1) 60%, rgba(120,87,240,1) 100%);
     border-radius: 50%;
     width: 50%;
     height: 40%;
