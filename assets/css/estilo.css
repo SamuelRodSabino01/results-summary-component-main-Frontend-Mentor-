@@ -20,6 +20,9 @@
     margin-left: 260px;
 }
 .sumario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #fff;
     box-shadow: 10px 15px 30px #cacaca;
     border-radius: 30px;
@@ -30,7 +33,7 @@
 .circulo{
     display: flex;
     background: rgba(46,43,233,1);
-    background: linear-gradient(180deg, rgba(46,43,233,1) 0%, rgba(120,87,240,1) 60%, rgba(120,87,240,1) 100%);
+    background: linear-gradient(180deg, rgba(46,43,233,1) 0%, rgba(46,43,233,1) 10%, rgba(120,87,240,1) 100%);
     border-radius: 50%;
     width: 50%;
     height: 40%;
@@ -44,4 +47,34 @@
     width: 100%;
     height: 100%;
 
+}
+.info-sumario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.primeiro{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.segundo{
+    background-color: #cacaca;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.terceiro{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.quarto{
+    background-color: #cacaca;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
