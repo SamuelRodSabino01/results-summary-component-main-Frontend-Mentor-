@@ -11,8 +11,8 @@
     position: relative;
     align-items: center;
     flex-direction: column;
-    background: rgb(120,87,240);
     box-shadow: -10px 15px 30px #cacaca;
+    background: rgb(120,87,240);
     background: linear-gradient(180deg, rgba(120,87,240,1) 0%,rgba(120,87,240,1) 50%, rgba(46,43,233,1) 100%);
     border-radius: 30px;
     width: 60%;
@@ -89,4 +89,17 @@
 }
 .quarto-texto{
     color: rgba(17, 37, 212, 1);
+}
+.botao{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+.botao a{
+    background: rgb(120,87,240);
+    background: linear-gradient(180deg, rgba(120,87,240,1) 0%,rgba(120,87,240,1) 10%, rgba(46,43,233,1) 100%);
+}
+.botao a:hover{
+    background: rgb(120,87,240);
+    background: linear-gradient(180deg, rgba(120,87,240,1) 0%,rgba(120,87,240,1) 10%, rgba(46,43,233,1) 100%);
 }
