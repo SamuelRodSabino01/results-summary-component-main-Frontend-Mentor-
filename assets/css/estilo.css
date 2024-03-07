@@ -55,26 +55,38 @@
     align-content: center;
 }
 .primeiro{
-    background-color: aqua;
+    background-color: rgba(255, 87, 87, .05);
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 .segundo{
-    background-color: #cacaca;
+    background-color: rgba(255, 176, 31, .05);
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 .terceiro{
-    background-color: aqua;
+    background-color: rgba(0, 189, 145, .05);
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 .quarto{
-    background-color: #cacaca;
+    background-color: rgba(17, 37, 212, .05);
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+.primeiro-texto{
+    color: rgba(255, 87, 87, 1);
+}
+.segundo-texto{
+    color: rgba(255, 176, 31, 1);
+}
+.terceiro-texto{
+    color: rgba(0, 189, 145, 1);
+}
+.quarto-texto{
+    color: rgba(17, 37, 212, 1);
 }
