@@ -103,3 +103,17 @@
     background: rgb(120,87,240);
     background: linear-gradient(180deg, rgba(120,87,240,1) 0%,rgba(120,87,240,1) 10%, rgba(46,43,233,1) 100%);
 }
+
+@media only screen and (max-width: 600px){
+    .resultado{
+        margin: 0 auto;
+        margin-top: -50px;
+        height: 150%;
+        margin-left: -12px;
+        margin-right: -12px;
+        width: 100%;
+    }
+    .sumario{
+        margin: 0 auto;
+    }
+}
